@@ -1,6 +1,9 @@
 import React from 'react';
 import Example from './Example';
 import Example1 from './Example1';
+import NameForm from './NameForm';
+import UseScreenWidth from './UseScreenWidth';
+import LifeCycle from './LifeCycle';
 
 const App = () => (
   <div className='container'>
@@ -15,6 +18,9 @@ const App = () => (
     </div>
     <Example />
     <Example1 />
+    <NameForm />
+    <UseScreenWidth />
+    <LifeCycle />
   </div>
 );
 
